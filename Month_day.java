@@ -35,27 +35,27 @@ public class DaysInMonth {
         int days = 0;
 
         switch (month) {
-            case 1:  // January
-            case 3:  // March
-            case 5:  // May
-            case 7:  // July
-            case 8:  // August
-            case 10: // October
-            case 12: // December
+            case 1:  
+            case 3:  
+            case 5:  
+            case 7:  
+            case 8:  
+            case 10: 
+            case 12: 
                 days = 31;
                 break;
-            case 4:  // April
-            case 6:  // June
-            case 9:  // September
-            case 11: // November
+            case 4:  
+            case 6:  
+            case 9:  
+            case 11: 
                 days = 30;
                 break;
             case 2:  // February
-                days = 28; // For simplicity, not considering leap years
+                days = 28; 
                 break;
             default:
                 System.out.println("Invalid month number. Please enter a number between 1 and 12.");
-                return; // Exit the program if the month is invalid
+                return; 
         }
 
         System.out.println("Number of days in month " + month + ": " + days);
