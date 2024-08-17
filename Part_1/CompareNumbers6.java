@@ -1,3 +1,5 @@
+/*6. Write a Java program to compare two numbers*/
+
 import java.util.Scanner;
 
 public class CompareNumbers6 {
