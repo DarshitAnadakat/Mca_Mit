@@ -1,3 +1,5 @@
+/*3. Write a Java program to convert a decimal number to binary numbers*/
+
 import java.util.Scanner;
 
 public class DecimalToBinary3 {
