@@ -1,3 +1,6 @@
+/*10. Write a Java program to swap the first and last elements of an array and create a
+new array*/
+
 import java.util.Arrays;
 
 public class SwapArray10 {
