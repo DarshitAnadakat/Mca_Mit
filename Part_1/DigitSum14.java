@@ -1,3 +1,5 @@
+/*14. Write a Java program to add all the digits of a given positive integer*/
+
 import java.util.Scanner;
 
 public class DigitSum14 {
