@@ -1,3 +1,5 @@
+/*12. Write a Java program to check if a positive number is a palindrome or not*/
+
 import java.util.Scanner;
 
 public class PalindromeCheck12 {
