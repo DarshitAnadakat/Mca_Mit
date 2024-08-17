@@ -1,3 +1,6 @@
+/*15. Write a java program to Compute the Sum of the Principal and Secondary
+Diagonals elements of a Matrix*/
+
 import java.util.Scanner;
 
 public class MatrixDiagonals15 {
