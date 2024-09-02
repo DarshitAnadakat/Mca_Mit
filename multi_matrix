@@ -1,0 +1,36 @@
+public class MatrixMultiplication {
+    public static void main(String[] args) {
+        
+        int[][] matrix1 = {
+            {1, 1, 1},
+            {1, 1, 1},
+            {1, 1, 1}
+        };
+        
+ 
+        int[][] matrix2 = {
+            {2, 2, 2},
+            {2, 2, 2},
+            {2, 2, 2}
+        };
+        
+ 
+        int[][] resultMatrix = new int[3][3];
+        
+    
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+                resultMatrix[i][j] = matrix1[i][j] * matrix2[i][j];
+            }
+        }
+        
+       
+        System.out.println("The resulting matrix after element-wise multiplication is:");
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+                System.out.print(resultMatrix[i][j] + " ");
+            }
+            System.out.println();
+        }
+    }
+}
